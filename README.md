@@ -5,6 +5,8 @@ AI-PharmaX is an **Agentic AI–driven research intelligence prototype** designe
 
 This project was developed as part of **EY Techathon 6.0 – Round 2**, under the **Pharmaceuticals (Agentic AI)** problem statement.
 
+Live Demo: https://ai-pharmax-6470828746.us-west1.run.app/
+
 ---
 
 ## 🧠 Problem Context
@@ -100,6 +102,12 @@ This repository represents a **working prototype** focused on:
 Backend services such as databases, authentication, and production APIs are **abstracted at this stage** and designed for seamless integration in a full deployment.
 
 ---
+
+## Live Demo
+
+**Deployed Application:**  
+https://ai-pharmax-6470828746.us-west1.run.app/
+
 
 ## Future Extensions
 
