@@ -1,9 +1,9 @@
 # AI-PharmaX
-Agentic AI system for pharmaceutical drug repurposing — EY Techathon 6.0 (Round 2)
+Agentic AI system for pharmaceutical drug repurposing - EY Techathon 6.0 (Round 2)
 
 AI-PharmaX is an **Agentic AI–driven research intelligence prototype** designed to accelerate pharmaceutical drug repurposing by autonomously orchestrating multiple domain-specific AI agents.
 
-This project was developed as part of **EY Techathon 6.0 – Round 2**, under the **Pharmaceuticals (Agentic AI)** problem statement.
+This project was developed as part of **EY Techathon 6.0 - Round 2**, under the **Pharmaceuticals (Agentic AI)** problem statement.
 
 Live Demo: https://ai-pharmax-6470828746.us-west1.run.app/
 
@@ -12,7 +12,7 @@ Live Demo: https://ai-pharmax-6470828746.us-west1.run.app/
 ## 🧠 Problem Context
 
 Pharmaceutical organizations invest significant time and resources in identifying new therapeutic uses for approved molecules.  
-Today, this process involves **manual, fragmented analysis** across scientific literature, clinical trial registries, patent databases, and market intelligence platforms — often taking **weeks to months per molecule**.
+Today, this process involves **manual, fragmented analysis** across scientific literature, clinical trial registries, patent databases, and market intelligence platforms - often taking **weeks to months per molecule**.
 
 This slows innovation, increases R&D costs, and limits the number of opportunities teams can evaluate.
 
