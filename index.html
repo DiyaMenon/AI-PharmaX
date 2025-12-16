@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-PharmaX | Enterprise R&D Agent</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              pharma: {
+                950: '#020617',
+                900: '#0f172a', // Slate 900
+                800: '#1e293b', // Slate 800
+                700: '#334155', // Slate 700
+                600: '#475569',
+                accent: '#38bdf8', // Sky 400
+                accentDark: '#0284c7', // Sky 600
+                success: '#10b981', // Emerald 500
+                warning: '#f59e0b', // Amber 500
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+              serif: ['Merriweather', 'Georgia', 'serif'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=Merriweather:wght@400;700&display=swap');
+
+      body {
+        background-color: #020617;
+        color: #e2e8f0;
+        font-family: 'Inter', sans-serif;
+        background-image: 
+          radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15) 0%, transparent 50%),
+          radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.08) 0%, transparent 40%);
+        min-height: 100vh;
+      }
+      
+      /* Tech Grid Background */
+      .bg-grid-pattern {
+        background-size: 50px 50px;
+        background-image: 
+          linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        mask-image: linear-gradient(to bottom, black 20%, transparent 90%);
+        -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 90%);
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569; 
+      }
+
+      /* Glassmorphism Utilities */
+      .glass-panel {
+        background: rgba(30, 41, 59, 0.4);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      
+      .glass-card {
+        background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(56, 189, 248, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Table Styles for Markdown */
+      .prose table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .prose thead tr {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        background-color: rgba(255,255,255,0.05);
+      }
+      .prose th {
+        color: #fff;
+        font-weight: 600;
+        text-align: left;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .prose td {
+        padding: 0.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        font-size: 0.875rem;
+        color: #cbd5e1;
+      }
+      .prose tbody tr:last-child td {
+        border-bottom: none;
+      }
+    </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "marked": "https://esm.sh/marked@15.0.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

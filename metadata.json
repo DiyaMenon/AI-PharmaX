@@ -1,0 +1,5 @@
+{
+  "name": "AI-PharmaX",
+  "description": "An enterprise-grade Agentic AI System for pharmaceutical drug repurposing R&D, orchestrating specialized worker agents for clinical and market analysis.",
+  "requestFramePermissions": []
+}
